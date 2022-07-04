@@ -16,8 +16,6 @@ class MemberServiceTest {
 
     private final MemberService memberService = new MemberService();
 
-
-
     @Test
     void join() {
 
