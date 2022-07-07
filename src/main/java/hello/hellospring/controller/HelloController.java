@@ -12,7 +12,7 @@ public class HelloController {
     //MVC 방식으로 HELLO SPRING  테스트
     @GetMapping("hello")
     public String hello(Model model){
-        model.addAttribute("data","Hello Spring!!");
+        model.addAttribute("data","Hello Spring!!!!");
         return "hello";
     }
 
